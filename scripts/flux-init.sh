@@ -23,7 +23,7 @@ if [[ ! -x "$(command -v jq)" ]]; then
 fi
 
 REPO_ROOT=$(git rev-parse --show-toplevel)
-GITHUB_USER=${1:-jwenz723}
+GITHUB_USER=${1:-Takshil00}
 REPO_NAME=flux-grpcdemo
 REPO_URL=git@github.com:${GITHUB_USER}/${REPO_NAME}
 REPO_BRANCH=master

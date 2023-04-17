@@ -55,7 +55,7 @@ helmOperator:
         username: ""
 EOF
 
-helm repo add fluxcd https://fluxcd.github.io/flux
+helm repo add fluxcd https://github.com/fluxcd/flux2
 
 echo ">>> Installing Flux for ${REPO_URL}"
 helm upgrade -i flux --wait \
